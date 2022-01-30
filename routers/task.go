@@ -22,3 +22,13 @@ func SetTaskRoutes(router *mux.Router) *mux.Router {
 	))
 	return router
 }
+
+// A FEW NOTES TO REMEMBER 
+// when we build web applications, you might need some shared functionality to be executed for some or all HTTP handlers.
+// middleware is pluggable and self-contained piece of code that wraps a web application.
+// here are some example senarios in which you can use middleware:
+// logging HTTP requests and responses
+// compressing HTTP responses 
+// writting common response headers
+// creating database session objects
+// implementing security and validating authentication credentials

@@ -127,6 +127,10 @@ func Authorize(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
 		}
 
 	}
+	// A FEW THINGS TO REMEMBER 
+	// you may need to provide values to the next middleware or share values between middleware handler function,
+	// it may need to provide some user-specific values to the nest handler function , it may need to provide some 
+	// user-specific values to the next handler in the request-handling cycle
 	if token.Valid {
 		// Set user name to HTTP context
 		context.Set(r, "user", token.Claims.(*AppClaims).UserName)
