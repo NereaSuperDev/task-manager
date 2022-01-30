@@ -32,3 +32,7 @@ func SetTaskRoutes(router *mux.Router) *mux.Router {
 // writting common response headers
 // creating database session objects
 // implementing security and validating authentication credentials
+// https://github.com/urfave/negroni
+// Negroni is an idiomatic approach to web middleware in Go. It is tiny, non-intrusive, and encourages use of net/http Handlers.
+// https://github.com/justinas/alice
+// Alice provides a convenient way to chain your HTTP middleware functions and the app handler.
