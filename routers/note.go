@@ -1,11 +1,10 @@
 package routers
 
-
 import (
+	"github.com/Delaram-Gholampoor-Sagha/task-manager/controllers"
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
 	"github.com/shijuvar/go-web/taskmanager/common"
-	"github.com/shijuvar/go-web/taskmanager/controllers"
 )
 
 // SetNoteRoutes configures routes for note entity

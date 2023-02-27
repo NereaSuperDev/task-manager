@@ -3,10 +3,9 @@ package data
 import (
 	"time"
 
+	"github.com/Delaram-Gholampoor-Sagha/task-manager/models"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-
-	"github.com/shijuvar/go-web/taskmanager/models"
 )
 
 type NoteRepository struct {

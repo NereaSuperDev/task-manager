@@ -1,10 +1,8 @@
 package controllers
 
-import (
-	"github.com/shijuvar/go-web/taskmanager/models"
-)
+import "github.com/Delaram-Gholampoor-Sagha/task-manager/models"
 
-//Models for JSON resources
+// Models for JSON resources
 type (
 	//For Post - /user/register
 	UserResource struct {
